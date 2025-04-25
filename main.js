@@ -1,5 +1,4 @@
-
-
+// صفحة js 
 document.addEventListener("DOMContentLoaded", function () {
     function calculateTotalHours(tableIndex, totalElementId) {
         let tables = document.querySelectorAll("table");
@@ -21,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById(totalElementId).textContent = total;
     }
   
-    calculateTotalHours(0, "total-sem1"); // مجموع ساعات الفصل الأول
-    calculateTotalHours(1, "total-sem2"); // مجموع ساعات الفصل الثاني
+    calculateTotalHours(0, "total-sem1"); 
+    calculateTotalHours(1, "total-sem2"); 
   });
   
