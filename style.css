@@ -1,3 +1,4 @@
+/* صفحة css  */
 :root {
   /* لون خلفية الولقو  */
   --primary-color: #13162e;
@@ -16,8 +17,6 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
   /* مقاس الخص داخل ال بوكس  */
@@ -28,7 +27,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   justify-content: flex-start; /* رفع المحتوى لاعلى الصفحة   */
-  
   /* لون الباك راوند للجداول */
   background: #ebeaea; 
 }
@@ -51,8 +49,6 @@ body {
   height: 100px;
   width: auto;
 }
-
-
 /* باكرانود index */
 .home{
   min-height: calc(100vh - 92px);
@@ -60,12 +56,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-
-
 /* باقي الصفحات  */
-
  .home2 {
   overflow: hidden;
   min-height: calc(100vh - 92px);
@@ -74,11 +66,8 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 /***********  اذا شفت ذا التعليق داخله اسم الصفحة ف كل الاكواد الاي تحته ل ذي الصفحة  *************/
-
 /*********** index *************/
-
 /*   تصميم المربع في الصفحة الرائسية  */
 .box {
   display: flex;
@@ -86,7 +75,6 @@ body {
   padding: 2rem;
   justify-content: space-between;
 }
-
 /* المربع اليمين و المبرع اليسار في الصفحة الرائسية  */
 .boxr{
   background-color: rgb(255, 255, 255);
@@ -99,15 +87,11 @@ body {
   flex: 1;
   border: 2px solid #322161;
   box-shadow: 0px 6px 0px #160d2e;
-
-
-
-
 }
+
 .boxr:hover {
   background-color: rgb(223, 223, 223); /* اللون الرمادي */
 }
-
 
 .boxT {
   background-color: rgb(255, 255, 255);
@@ -124,10 +108,6 @@ body {
 .boxT:hover {
   background-color: rgb(230, 230, 230); /* اللون الرمادي */
 }
-
-
-
-
 /*********** us  *************/
 /* تصميم الصورة الاولى في صفحة التواصل  */
 .img1{display: flex;
@@ -170,13 +150,10 @@ body {
 
 /* موقع الصورة الاولى في صفحة التواصل  */
 .img1 { left: 60%; top: 50%; }
-
 /* موقع الصورة الثانية  في صفحة التواصل  */
 .img2 { left: 40%; top: 50%; }
-
  /* موقع الصورة الثالثة  في صفحة التواصل  */
 .img3 { left: 20%; top: 50%; }
-
 
 /* مقاس الصورة الاولى  */
 .img12{  
@@ -184,28 +161,23 @@ body {
   height: 200px;
   object-fit: cover;
 }
-
 /* مقاس الصورة الثانية   */
 .img22{
   width: 50%;
   height: 200px;
   object-fit: cover;
 }
-
 /* مقاس الصورة الثالثة   */
 .img33 {
   width: 50%;
   height: 200px;
   object-fit: cover;
 }
-
 /*   مكان النص في المربع الاول  */
 .n1{
   position: absolute;
   left: 20%; top: 80%;
-
 }
-
 /* مكان النص في المربع الثاني  */
 .n2{
   position: absolute;
@@ -218,9 +190,7 @@ body {
   left: 20%; top: 80%;
 }
 
-
-/*********** majors *************/
-
+/*********** majors ************* */
 /*   تصميم المربع لي ال 
 (div )
 كامل   */
@@ -231,10 +201,7 @@ body {
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-  
 }
-
-
 /* تصميم المربع  */
 .major-box {
   background: var(--white);
@@ -246,19 +213,13 @@ body {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
 }
-
 /*  لتحريك الخيرات   */
 .major-box:hover {
   transform: translateY(-5px);
   background-color: rgb(230, 230, 230); /* اللون الرمادي */
 }
-
-
-
-
 /* (العودة للصفحة الرئيسية) تصميم زر العودة  */
 .return-btn2, .return-btn1 {
-
   display: inline-block;
   position: absolute;
   left: 48%;
@@ -269,8 +230,6 @@ body {
   border-radius: 4px;
   transition: background-color 0.3s ease;
   transform: translateX(-48%); /* يخليه مضبوط بالنص */
-
-
 }
 
 /* (العودة للصفحة الرئيسية) مكان زر العودة  */
@@ -291,7 +250,6 @@ body {
   }
 }
 
-
 /* الخط الاسود في صفحة البرمجة  */
 h2.table-titlepr {
   text-align: center;
@@ -301,10 +259,7 @@ h2.table-titlepr {
   border-top: 2px solid #000000;  
   margin-bottom: 30px; /* قللناها */
 }
-
-
 /* الخط الاسود في صفحة الشبكات   */
-
 h2.table-titlene{
   text-align: center;
   margin-top: 50px;
@@ -324,7 +279,6 @@ h2.table-titlene1{
   
 }
 
-
 table {
   width: 100%;
   border-collapse: collapse;
@@ -338,10 +292,7 @@ table {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   margin-top: 1px;
-  
 }
-
-
 
 th {
   background-color: #005f73;
@@ -351,18 +302,11 @@ th {
   text-transform: uppercase;
 }
 
-
 td {
   color: #333;
 }
 
-
-
-
-
-
 /* تنسيق الخلايا المخصصة */
-
 td:nth-child(1) {
   /* لون (م) */
   color: #333;
@@ -373,31 +317,26 @@ td:nth-child(2) {
   color: #333;
   font-weight: bold;
 }
-
 td:nth-child(3) {
   /* (اسم المقرر ) لون   */
   color: #333;
   font-weight: bold;
 }
-
 td:nth-child(4) {
   /* (المتلطب ) لون  */
   color: #333;
   font-weight: bold;
 }
-
 td:nth-child(5) {
   /* (س) لون  */
   color: #333;
   font-weight: bold;
 }
-
 td:nth-child(6) {
   /* (نوع المقرر ) لون  */
   color: #333;
   font-weight: bold;
 }
-
 /* إضافة تباعد بين الجداول */
 table + table {
   margin-top: 40px;
@@ -415,31 +354,22 @@ table + table {
   background-color: rgb(255, 255, 255);
   color: white; /* لتوضيح النص في السطر الأزرق */
 }
-
 .a59r {
   background-color: rgba(79, 255, 9, 0.4);
 }
 
-/* مكان اسم التخصص في 
-pr  */
+/* مكان اسم التخصص في pr  */
 .main-title {
   text-align: center;
   font-size: 36px;
   margin-bottom: 20px;
 }
+/* تصميم الملاحطة  */
 .title2 {
   text-align: center;
   font-size: 15px;
   margin-bottom: 20px;
 }
-
-/* زر الوسايط  */
-
-
-
-
-
-
 /* زر العودة الي التخصص البرمجة  */
 .kkkpr{
   color: #ecf0f1;
@@ -455,9 +385,7 @@ pr  */
   text-decoration: none;
   left: 47%;
   top: 2850px;
-
 }
-
 /* حركة الزر البرمجة   */
 .kkkpr:active {
   box-shadow: 0px 2px 0px #0a58b1;
@@ -465,30 +393,14 @@ pr  */
   position: absolute;
   left: 47%;
   top: 2858px;
-
 }
-
-
-
-
-
-
 th, td {
-
   padding: 10px; /* تقليل المسافات داخل الخلايا */
   border: 1px solid #000000; /*تقسيمة ال*/ 
   text-align: center;
 }
-
-
-
 /* السطر الاخير  */
-
-
-
-
 .a5yrpr {
-
   position: absolute;
   width: 100%;
   margin: 0 auto;
@@ -497,11 +409,9 @@ th, td {
   top: 2930px;
   left: 0px;
   text-align: center;
-
 }
 
 .a5yrne {
-
   position: absolute;
   width: 100%;
   margin: 0 auto;
@@ -512,7 +422,6 @@ th, td {
   text-align: center;
 
 }
-
 
 .titl{
   color: var(--primary-color);
@@ -530,9 +439,6 @@ th, td {
   transition: transform 0.3s ease;
   width: 930px; /* عرض المربع */
   height: 100px; /* ارتفاع المربع */
-  
-  
-
 }
 
 /* زر الشكبات */
@@ -553,9 +459,7 @@ th, td {
 
   
 }
-
 /* حركة الزر الشبكات  */
-
 .kkkne:active {
   box-shadow: 0px 2px 0px #0a58b1;
   position: relative;
@@ -581,9 +485,7 @@ th, td {
   left: 47%;
   top: 2760px;
 
-  
 }
-
 /*  حركة زر الوسايط  */
 .kkkmu:active {
   box-shadow: 0px 2px 0px #0a58b1;
@@ -593,7 +495,7 @@ th, td {
   top: 2762px;
 
 }
-
+/*  حركة زر الوسايط  */
 .a5yrmu {
   position: absolute;
   width: 100%;
@@ -604,4 +506,3 @@ th, td {
   left: 0px;
   text-align: center;
 }
-
